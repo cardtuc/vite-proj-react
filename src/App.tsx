@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { i18n } from './services'
+import Cim from '@/views'
 
 i18n.init()
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <div>
+        <Cim />
         <p>APP PROJ</p>
         <a href="https://vitejs.dev" target='_blank'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
