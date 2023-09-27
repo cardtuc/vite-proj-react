@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { i18n } from './services'
-import Cim from '@/views'
+import Cim from "@/views"
 
 i18n.init()
 
