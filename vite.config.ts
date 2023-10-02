@@ -8,14 +8,8 @@ console.log(path.resolve(__dirname, './src'));
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    // alias: [{ find: "@", replacement: "/src" }],
     alias: [
       { find: '@', replacement: path.resolve(__dirname, './src') },
     ],
   },
-  // resolve: {
-  //   alias: {
-  //     src: path.resolve(__dirname, "src"),
-  //   },
-  // },
 })
